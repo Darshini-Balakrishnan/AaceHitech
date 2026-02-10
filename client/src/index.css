@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Oswald:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Professional Industrial Palette */
+  --primary: 211 100% 35%; /* Deep Royal Blue #0056b3 */
+  --primary-foreground: 0 0% 100%;
+  
+  --secondary: 210 40% 96%; /* Light Blue-Grey Background */
+  --secondary-foreground: 222 47% 11%;
+  
+  --accent: 45 100% 51%; /* Safety Yellow for subtle highlights/calls to action */
+  --accent-foreground: 0 0% 0%;
+  
+  --background: 0 0% 100%;
+  --foreground: 215 28% 17%; /* Dark Slate for text */
+  
+  --muted: 210 20% 96%;
+  --muted-foreground: 215 16% 47%;
+  
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
+  --ring: 211 100% 35%;
+  
+  --card: 0 0% 100%;
+  --card-foreground: 215 28% 17%;
+  
+  --radius: 0.3rem; /* Sharper corners for industrial feel */
+  
+  /* Fonts */
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Oswald', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-primary/20;
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply font-bold tracking-wide uppercase text-slate-900;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .glass-panel {
+    @apply bg-white/90 backdrop-blur-sm border border-white/20 shadow-xl;
+  }
+}
