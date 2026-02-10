@@ -43,7 +43,7 @@ export default function Home() {
                 <span className="text-primary">Excellence</span>
               </h1>
               <p className="text-lg md:text-xl text-slate-300 mb-8 leading-relaxed max-w-2xl">
-                Specializing in high-quality turned components, clevises, and industrial fasteners. 
+                Specializing in high-quality Machined Components, clevises, and industrial fasteners. 
                 Delivering reliability through advanced CNC technology and rigorous quality control.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -103,7 +103,7 @@ export default function Home() {
                 <h2 className="text-4xl font-bold text-slate-900 mb-6 font-display">Engineering The Future Of Manufacturing</h2>
                 <p className="text-slate-600 mb-6 leading-relaxed">
                   Aace Hitech Engineering Private Limited is a premier manufacturer located in Coimbatore, the engineering hub of South India. 
-                  We specialize in Clevises, Knuckle Eyes, Bolts, and high-precision turned components for diverse industrial applications.
+                  We specialize in Clevises, Knuckle Eyes, Bolts, and high-precision Machined Components for diverse industrial applications.
                 </p>
                 <ul className="space-y-4 mb-8">
                   {[

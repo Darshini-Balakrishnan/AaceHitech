@@ -38,7 +38,7 @@ export default function About() {
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 font-display mb-6">A Leader in Precision Components</h2>
               <p className="text-lg text-slate-600 leading-relaxed">
                 Aace Hitech Engineering Private Limited is situated in Coimbatore, known as the "Manchester of South India" for its engineering prowess. 
-                We are a dedicated manufacturer specializing in high-quality Clevises, Knuckle Eyes, Bolts, and other turned components. 
+                We are a dedicated manufacturer specializing in high-quality Clevises, Knuckle Eyes, Bolts, and other Machined Components. 
                 Our products serve a wide range of industries including automotive, hydraulic, and general engineering sectors.
               </p>
             </div>

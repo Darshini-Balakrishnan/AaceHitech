@@ -16,7 +16,7 @@ export function Footer() {
               <span className="font-bold text-lg text-white font-display uppercase">Aace Hitech</span>
             </div>
             <p className="text-sm leading-relaxed text-slate-400">
-              Specialized manufacturers of High Precision Turned Components, Clevises, Rod Ends, and industrial fasteners. ISO 9001:2015 Certified Company.
+              Specialized manufacturers of High Precision Machined Components, Clevises, Rod Ends, and industrial fasteners. ISO 9001:2015 Certified Company.
             </p>
             <div className="pt-4 flex gap-4">
               <div className="w-24 h-12 bg-white/10 rounded flex items-center justify-center text-xs font-bold border border-white/20">

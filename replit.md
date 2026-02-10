@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a corporate website for **Aace Hitech Engineering Private Limited**, an industrial manufacturing company based in Coimbatore, India. The company specializes in precision-turned components like clevises, knuckle eyes, bolts, rod ends, and other industrial fasteners. The website serves as a product catalog and company information portal with a contact form for inquiries.
+This is a corporate website for **Aace Hitech Engineering Private Limited**, an industrial manufacturing company based in Coimbatore, India. The company specializes in precision-Machined Components like clevises, knuckle eyes, bolts, rod ends, and other industrial fasteners. The website serves as a product catalog and company information portal with a contact form for inquiries.
 
 The application follows a full-stack TypeScript architecture with a React frontend and Express backend, using PostgreSQL for data persistence.
 
