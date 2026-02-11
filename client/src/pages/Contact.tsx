@@ -96,7 +96,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-bold text-slate-900 mb-1">Phone</h3>
                     <p className="text-slate-600 text-sm mb-2">Mobile: <a href="tel:+919842201342" className="hover:text-primary transition-colors">+91 98422 01342</a></p>
-                    <p className="text-slate-600 text-sm">Office: <a href="tel:+919842199044" className="hover:text-primary transition-colors">+91 98944 54848</a></p>
+                    <p className="text-slate-600 text-sm">Office: <a href="tel:+919842199044" className="hover:text-primary transition-colors">+91 98421 99044</a></p>
                   </div>
                 </div>
 
