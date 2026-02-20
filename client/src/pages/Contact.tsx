@@ -82,12 +82,17 @@ export default function Contact() {
                   <MapPin className="w-6 h-6 text-primary mt-1 mr-4 shrink-0" />
                   <div>
                     <h3 className="font-bold text-slate-900 mb-1">Address</h3>
-                    <p className="text-slate-600 text-sm leading-relaxed">
+                    <a
+                      href="https://www.google.com/maps/search/?api=1&query=SF.No+399%2F1C+Part%2C+Pothiyampalayam%2C+Naranapuram+Village%2C+Vadugapalayam+Post%2C+Sarcarsamakulam%2C+Coimbatore+641107%2C+Tamil+Nadu%2C+India"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-slate-600 text-sm leading-relaxed hover:text-primary transition-colors"
+                    >
                       SF.No: 399/1C Part, Pothiyampalayam, <br />
                       Naranapuram Village, Vadugapalayam Post, <br />
-                      Sarcarsamakulam, Coimbatore – 641 107, <br />
+                      Sarcarsamakulam, Coimbatore - 641 107, <br />
                       Tamil Nadu, INDIA.
-                    </p>
+                    </a>
                   </div>
                 </div>
 
@@ -203,3 +208,4 @@ export default function Contact() {
     </div>
   );
 }
+
