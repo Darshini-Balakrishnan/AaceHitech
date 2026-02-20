@@ -37,8 +37,12 @@ export function Navbar() {
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
-          <div className="w-10 h-10 bg-primary flex items-center justify-center rounded-sm">
-            <span className="text-white font-black text-xl font-display">A</span>
+          <div className="w-10 h-10 rounded-sm overflow-hidden bg-white border border-border">
+            <img
+              src="/logo.png"
+              alt="Aace Hitech Logo"
+              className="w-full h-full object-contain p-0.5"
+            />
           </div>
           <div className="flex flex-col leading-none">
             <span className="font-bold text-lg tracking-tight text-primary uppercase font-display">Aace Hitech</span>
