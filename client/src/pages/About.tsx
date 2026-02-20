@@ -4,7 +4,7 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, Award, Users, Globe, Target, Lightbulb } from "lucide-react";
 
-const FACTORY_IMAGE = "https://images.unsplash.com/photo-1598550476439-6847785fcea6?q=80&w=2070&auto=format&fit=crop";
+const FACTORY_IMAGE = "/logo.png";
 
 export default function About() {
   return (

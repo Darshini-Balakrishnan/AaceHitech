@@ -8,7 +8,7 @@ import { Search } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { PRODUCTS } from "@/lib/data";
 
-const PRODUCTS_HERO = "https://images.unsplash.com/photo-1612690669206-ebae5f0c3df4?q=80&w=2070&auto=format&fit=crop";
+const PRODUCTS_HERO = "/logo.png";
 
 export default function Products() {
   const [activeCategory, setActiveCategory] = useState<string>("All");

@@ -30,7 +30,7 @@ export default function ProductDetail() {
     );
   }
 
-  const image = product.imageUrl || "https://images.unsplash.com/photo-1581092921461-eab62e97a78e?auto=format&fit=crop&q=80&w=800&h=600";
+  const image = product.imageUrl || "/logo.png";
 
   return (
     <div className="min-h-screen flex flex-col font-sans bg-slate-50">
