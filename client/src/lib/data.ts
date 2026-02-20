@@ -25,7 +25,7 @@ export const PRODUCTS: Product[] = [
     series: "FKR Series",
     description: "Specialized clevises designed with a rotating shaft mechanism for enhanced flexibility.",
     specifications: null,
-    imageUrl: "/logo.png"
+    imageUrl: "/clevis-rotating.png"
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ export const PRODUCTS: Product[] = [
     series: "DIN71752 / DIN ISO8140 / CETOP",
     description: "Male threaded clevises offering robust connection points for pneumatic cylinders.",
     specifications: null,
-    imageUrl: "/logo.png"
+    imageUrl: "/clevis-male-thread.png"
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ export const PRODUCTS: Product[] = [
     series: "FU Series",
     description: "Versatile clevises for general engineering applications.",
     specifications: null,
-    imageUrl: "/logo.png"
+    imageUrl: "/clevis-FU-series.png"
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ export const PRODUCTS: Product[] = [
     series: "FC Series",
     description: "Heavy-duty clevises for demanding load environments.",
     specifications: null,
-    imageUrl: "/logo.png"
+    imageUrl: "/clevis-fc.png"
   },
   {
     id: 6,
@@ -61,7 +61,7 @@ export const PRODUCTS: Product[] = [
     series: "FE Series",
     description: "Precision-machined knuckle eyes for smooth articulation.",
     specifications: null,
-    imageUrl: "/logo.png"
+    imageUrl: "/knuckle-fe.png"
   },
   {
     id: 7,
@@ -70,7 +70,7 @@ export const PRODUCTS: Product[] = [
     series: "FKE Series",
     description: "High-performance knuckle eyes designed for durability.",
     specifications: null,
-    imageUrl: "/logo.png"
+    imageUrl: "/knuckle-fke.png"
   },
   {
     id: 8,
@@ -79,7 +79,7 @@ export const PRODUCTS: Product[] = [
     series: "CL Series",
     description: "Reliable folding spring bolts for quick assembly and disassembly.",
     specifications: null,
-    imageUrl: "/logo.png"
+    imageUrl: "/folding-spring-bolts.png"
   },
   {
     id: 9,
@@ -88,7 +88,7 @@ export const PRODUCTS: Product[] = [
     series: "PC Series",
     description: "Standard industrial bolts machined to precise tolerances.",
     specifications: null,
-    imageUrl: "/logo.png"
+    imageUrl: "/bolts-pc.png"
   },
   {
     id: 10,
@@ -97,7 +97,7 @@ export const PRODUCTS: Product[] = [
     series: "PC-R / PC-C",
     description: "Essential accessories including washers and clips for secure assembly.",
     specifications: null,
-    imageUrl: "/logo.png"
+    imageUrl: "/washers-clips.png"
   },
   {
     id: 11,
@@ -106,7 +106,7 @@ export const PRODUCTS: Product[] = [
     series: "DIN471",
     description: "DIN471 compliant circlips for secure shaft retention.",
     specifications: null,
-    imageUrl: "/logo.png"
+    imageUrl: "/circlips.png"
   },
   {
     id: 12,
@@ -115,7 +115,7 @@ export const PRODUCTS: Product[] = [
     series: "SI..T/K",
     description: "Maintenance-free rod ends with internal thread, suitable for high dynamic loads.",
     specifications: null,
-    imageUrl: "/logo.png"
+    imageUrl: "/rod-ends-SI.png"
   },
   {
     id: 13,
@@ -124,6 +124,6 @@ export const PRODUCTS: Product[] = [
     series: "SA..T/K",
     description: "Maintenance-free rod ends with external thread, offering long service life.",
     specifications: null,
-    imageUrl: "/logo.png"
+    imageUrl: "/rod-ends-SA.png"
   }
 ];
