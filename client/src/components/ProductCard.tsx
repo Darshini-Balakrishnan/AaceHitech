@@ -16,13 +16,13 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <Card className="group overflow-hidden rounded-lg border border-border/50 hover:border-primary/50 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-full bg-white">
       {/* Image Container with Zoom Effect */}
-      <div className="relative aspect-[4/3] overflow-hidden bg-slate-50 border-b">
+      <div className="relative aspect-[4/3] overflow-hidden bg-white border-b">
         <div className="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/10 transition-colors z-10" />
         {/* Descriptive alt text for accessibility */}
-        <img 
-          src={image} 
-          alt={product.name} 
-          className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+        <img
+          src={image}
+          alt={product.name}
+          className="w-full h-full object-contain p-3 transform group-hover:scale-105 transition-transform duration-700"
         />
         <div className="absolute top-4 left-4 z-20">
           <Badge className="bg-primary/90 text-white hover:bg-primary font-semibold uppercase tracking-wider text-[10px] rounded-sm shadow-sm">

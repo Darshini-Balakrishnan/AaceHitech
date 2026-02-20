@@ -55,11 +55,11 @@ export default function ProductDetail() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
             <div className="space-y-6">
-              <div className="rounded-lg overflow-hidden border border-slate-100 bg-slate-50 relative aspect-[4/3] group shadow-inner">
+              <div className="rounded-lg overflow-hidden border border-slate-100 bg-white relative aspect-[4/3] group shadow-inner">
                 <img 
                   src={image} 
                   alt={product.name} 
-                  className="w-full h-full object-cover object-center"
+                  className="w-full h-full object-contain object-center p-4"
                 />
                 <div className="absolute top-4 left-4">
                    <Badge className="bg-primary text-white hover:bg-primary/90 text-sm px-3 py-1 uppercase tracking-wide">
