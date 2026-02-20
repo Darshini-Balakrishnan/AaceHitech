@@ -11,7 +11,7 @@ interface ProductCardProps {
 
 export function ProductCard({ product }: ProductCardProps) {
   // Fallback image if product.imageUrl is null
-  const image = product.imageUrl || "https://images.unsplash.com/photo-1581092921461-eab62e97a78e?auto=format&fit=crop&q=80&w=400&h=300";
+  const image = product.imageUrl || "/logo.png";
 
   return (
     <Card className="group overflow-hidden rounded-lg border border-border/50 hover:border-primary/50 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-full bg-white">
