@@ -16,7 +16,7 @@ export const PRODUCTS: Product[] = [
     series: "DIN71752 / DIN ISO8140 / CETOP",
     description: "Standard clevises suitable for various industrial applications. Compliant with DIN71752 standards.",
     specifications: null,
-    imageUrl: "/Clevis.png"
+    imageUrl: "/clevis.png"
   },
   {
     id: 2,
