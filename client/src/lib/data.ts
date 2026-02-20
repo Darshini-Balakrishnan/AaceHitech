@@ -6,6 +6,7 @@ export interface Product {
   description: string;
   specifications: Record<string, any> | null;
   imageUrl: string | null;
+  specSheetUrl?: string | null;
 }
 
 export const PRODUCTS: Product[] = [
@@ -16,7 +17,8 @@ export const PRODUCTS: Product[] = [
     series: "DIN71752 / DIN ISO8140 / CETOP",
     description: "Standard clevises suitable for various industrial applications. Compliant with DIN71752 standards.",
     specifications: null,
-    imageUrl: "/clevis.png"
+    imageUrl: "/clevis.png",
+    specSheetUrl: "/spec/id1.pdf"
   },
   {
     id: 2,

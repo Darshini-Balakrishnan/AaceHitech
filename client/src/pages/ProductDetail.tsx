@@ -110,9 +110,17 @@ export default function ProductDetail() {
                     <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold uppercase tracking-wider flex-1">
                       <Link href="/contact">Request Quote</Link>
                     </Button>
-                    <Button variant="outline" size="lg" className="border-slate-300 text-slate-700 hover:bg-slate-100 font-bold uppercase tracking-wider flex-1">
-                      <FileText className="w-4 h-4 mr-2" /> Download Spec Sheet
-                    </Button>
+                    {product.specSheetUrl ? (
+                      <Button asChild variant="outline" size="lg" className="border-slate-300 text-slate-700 hover:bg-slate-100 font-bold uppercase tracking-wider flex-1">
+                        <a href={product.specSheetUrl} download target="_blank" rel="noreferrer">
+                          <FileText className="w-4 h-4 mr-2" /> Download Spec Sheet
+                        </a>
+                      </Button>
+                    ) : (
+                      <Button variant="outline" size="lg" disabled className="border-slate-300 text-slate-500 font-bold uppercase tracking-wider flex-1">
+                        <FileText className="w-4 h-4 mr-2" /> Spec Sheet Not Available
+                      </Button>
+                    )}
                   </div>
                 </div>
               </div>
